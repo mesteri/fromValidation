@@ -5,3 +5,48 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#signUpForm{
+    display: flex;
+    flex-direction: column;
+    background-color: #555;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#signUpForm > input{
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+
+}
+
+#submitBTN{
+    background-color: orange;
+    border-color: #000 !important;    
+}
+
+.errorField{
+    border-color: orangered !important;
+}
+
+.errorMessage{
+    color: red;
+    padding: 0px 10px;
+    font-size: 12px;
+    
+}
+
+.hidden{
+    display: none;
+}
